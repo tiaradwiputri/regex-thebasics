@@ -1,0 +1,73 @@
+---
+title: "RegEx: The Basics"
+author: "Tiara Dwiputri"
+date: "Last updated: 23rd September 2019"
+output: 
+  revealjs::revealjs_presentation:
+    theme: serif
+    highlight: kate
+---
+
+# Regular Expression, in short: RegEx
+
+## Why is it important?
+
+If I were to mention the most important skills in data field, cleansing would definitely be one of them. The hard truth is, even with a brilliant statistics knowledge, machine learning skills, and business understanding, most of your time spent working with data is cleaning them. In this big data era, where all form of data could be taken into analysis, structured or unstructured, this skill is more important than ever.
+
+## How can I use it?
+
+Easy! A bit of programming and syntax understanding.  
+
+To utilize regex, you will need a help of a certain programming language that work as an interpreter. Regex, is basically a tools you can use to extract a **pattern**, what you want to do with the pattern is up to your likings.  
+
+# It's flavorful!
+
+## Know which language are you using it in
+
+Each programming language can have a different flavors with other neighboring language. You need to be aware which programming language you're using, so that it works as how you wanted it to be.  
+
+In the next part, we'll talk about the common tokens you can use. Keep those mind, as whichever language you're using, the basic tokens will still be useful for you.
+
+## The difference at glance
+
+Let's take a look at the following difference between flavors in extracting the last word within a string:
+
+```{r eval=FALSE}
+"\w$"
+```
+
+```{r eval=FALSE}
+"\\w$"
+```
+
+A missing backslash could be interpreted as different meaning due to different engines used by the programming language.
+
+**WARNING**: The following [link](https://gist.github.com/CMCDragonkai/6c933f4a7d713ef712145c5eb94a1816) is optional but can be useful for you that have extra reading time.
+
+## TOO MUCH FLAVOR
+
+I get it! For some, it can be quite extreme to be exposed with so many types of flavor. But rest assured, you can always exclusively learn regex by using a specific programming language you usually code in without having to worry with other existing flavors. My recommendation for your interpreter could be one of the following:  
+
+- Python  
+- R  
+- grep (UNIX)
+
+# Practice time!
+
+## Nothing's perfected by only knowing
+
+So go and head to [this site](https://tiaradwptr.shinyapps.io/regex-in-r/) to do a hands on practice on regex.  
+
+At the end of the material, you can 
+
+Note: This practice is using regex flavor used in R.  
+
+## Go back a lot of time, there's no shame in doing so
+
+Or use [this site](https://regex101.com/) as quick reference.
+
+# Closing Words
+
+## Don't be ashamed of your pattern  
+
+Sure, by practice you can create a more efficient and beautiful regex. But don't be ashamed of what you have right now. If it works, it works. There's always multiple ways to achieve what you wanted.
